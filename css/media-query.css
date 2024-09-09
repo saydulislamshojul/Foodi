@@ -1,0 +1,130 @@
+@media screen and (max-width:991px) {
+
+  .hero-section{
+    padding-top: 18%;
+
+  }
+  .container{
+    width: 85%;
+  }
+  section{
+    padding-top: 3.5rem;
+  }
+  .foodi-part{
+    flex-direction: column;
+  }
+  .first-box{
+    width: 100%;
+    justify-content: space-between;
+
+  }
+  .box-img1, .box-img2{
+    width: 30%;
+  }
+  .right-side{
+    width: 30%;
+   
+  }
+}
+
+@media screen and (max-width:767px) {
+  .hero-part{
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+  .hero-left, .hero-right{
+   width: 100%;
+  }
+  .hero-left h1{
+    font-size: 3rem;
+  }
+  .hero-right{
+    padding: 1rem;
+  }
+  .container{
+    width: 75%;
+  }
+  .first-box{
+    flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+  }
+  .box-img1, .box-img2{
+    width: 100%;
+  }
+  .box-content{
+    width: 100%;
+    padding-inline: 1.2rem;
+  } 
+
+  .delivary-part{
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+  }
+  .delivary-box{
+    width: 100%;
+  }
+
+  .better-experience-part{
+    flex-direction: column;
+    gap: 2rem;
+ 
+  }
+  .left-side{
+    width: 100%;
+    margin-bottom: 1rem;
+    flex-basis: 60%;
+    margin-bottom: -1rem;
+  }
+  .app-store{
+    gap: .5rem;
+  }
+  .app-img{
+    width: 30%;
+  }
+  .right-side{
+    width: 100%;
+    flex-basis: 30%;
+   padding: 2rem 25%;
+  }
+  .right-side img{
+    height: 100%;
+  }
+  .main-footer-left h4, .main-footer-left p{
+    width: 100%;
+  }
+  .down{
+    width: 45%;
+    padding-block: .7rem;
+  }
+}
+@media screen and (max-width:600px){
+  html{
+    font-size: 12px;
+  }
+  .hero-part{
+    padding-top: 10%;
+  }
+  .container{
+    width: 90%; 
+  }
+  h1{
+    font-size: 1.8rem;
+  }
+  .left-side h1{
+    font-size: 1.8rem;
+  }
+  .find-food{
+    font-size: 1.3rem;
+    width: 35%;
+  }
+  .locate-me a{
+  display: none;
+  }
+  .nav_section{
+    height: 50px;
+  }
+
+}
